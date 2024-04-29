@@ -11,13 +11,13 @@ variables:
   azureSubscription: '51843aea-1f1e-40b7-9e95-0505b13ec822'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'deploiementbyrra'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'deploiementbyrra'
 
   # Root folder under which your composer.json file is available.
   rootFolder: $(System.DefaultWorkingDirectory)
